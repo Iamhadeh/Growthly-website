@@ -2340,12 +2340,12 @@ footer {
         background-color: #DAE0F2;
         display: flex;
         flex-direction: column;
-        position: absolute;
+        /* position: absolute; */
     }
 
-    html, body {
+    /* html, body {
         overflow-x: hidden;
-    }
+    } */
 
     menu {
         display: flex;
@@ -2474,10 +2474,9 @@ a {
 }
 
 .main {
-    padding: 10px;
-    border-right: 2px solid black;
+    padding: 30px;
     width: 420px;
-    height: 1100px;
+    height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2561,7 +2560,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     color: #EFE9E7;
     background-color: #272855;
-    width: 200px;
+    width: 300px;
     font-size: 1.2rem;
     text-align: center;
     border: 3px solid #EFE9E7;
@@ -2624,22 +2623,22 @@ p {
 .image-slider {
     display: grid;
     grid-template-columns: 100px 100px;
-    grid-template-rows: 40px 40px 40px;
+    grid-template-rows: 40px 40px;
     gap: 10px;
     height: 200px;
+    width: 200px;
 }
 
   /* image slider ends here */
 
 
 .section-4 {
-    height: 1000px;
+    height: 980px;
     width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .section-4-image-box {
     height: 320px;
@@ -2656,37 +2655,41 @@ p {
 }
 
 .about {
-    height: 400px;
-    width: 420px;
-    margin: 35px;
+    height: 500px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .about > .main-CTA-box {
-    height: 60px;
-    width: 420px;
+    height: 40px;
+    width: 220px;
     display: flex;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .about > p {
-    width: 320px;
-    margin: 15px;
+    width: 300px;
+    margin: 1px;
 }
 
 /* section 4 */
 .section-5 {
-    height: 850px;
+    height: 870px;
     width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-top: 10px solid #272855;
+    border-bottom: 10px solid #272855;
+    border-left: 0px solid #272855;
+    border-right: 0px solid #272855;
 }
 
 .section-5-inner {
-    height: 650px;
-    width: 300px;
-    /* border-width:5px; border-style:dotted; */
+    height: 670px;
+    width: 330px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2764,9 +2767,10 @@ p {
 }
 
 .text-in-sec-5 {
-    height: 350px;
-    width: 360px;
-    padding: 20px;
+    height: 360px;
+    width: 330px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .text-in-sec-5 > .main-CTA-box {
@@ -2775,11 +2779,12 @@ p {
     justify-content: center;
     width: 250px;
     gap: 20px;
-    height: 50px;
+    height: 40px;
 }
 
 .Text-area {
-    width: 260px;
+    width: 300px;
+    height: 180px;
     margin: 10px;
     display: flex;
     flex-direction: column;
@@ -2791,9 +2796,10 @@ p {
     font-family: 'DM Serif Text', serif;
     font-family: 'IBM Plex Serif', serif;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
     color: #EFE9E7;
     background-color: #272855;
-    width: 270px;
+    width: 300px;
     text-align: center;
     border: 3px solid #EFE9E7;
 }
@@ -2801,7 +2807,7 @@ p {
 /* section 6 starts here */
 
 .section-6 {
-    height: 1500px;
+    height: 1450px;
     width: 420px;
     display: flex;
     flex-direction: column;
@@ -2811,20 +2817,20 @@ p {
 }
 
 .inner-box-sec-6 {
-    height: 1000px;
+    height: 1400px;
     width: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 25px;
 }
 
 .area-of-spec {
-    height: 380px;
+    height: 430px;
     width: 270px;
     background-color: #a1a7b8;
-    gap: 10px;
+    gap: 40px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -2835,7 +2841,7 @@ p {
 
 
 .box-for-top-features {
-    height: 240px;
+    height: 80px;
     padding-top: 10px;
     width: 220px;
     border-top: 3px solid #272855;
@@ -2843,6 +2849,7 @@ p {
 
 .Top-features {
     display: flex;
+    height: 20px;
     gap: 10px;
 }
 
@@ -2862,7 +2869,7 @@ p {
 /* section 7  */
 
 .section-7 {
-    height: 890px;
+    height: 1000px;
     width: 420px;
     border-top: 10px solid #272855;
     display: flex;
@@ -2873,9 +2880,8 @@ p {
 }
 
 .reviews-box {
-    margin-top: 50px;
-    height: 300px;
-    width: 330px;
+    height: 400px;
+    width: 300px;
     display: grid;
     grid-template-columns: 90px 20px 50px 180px;
     grid-template-rows: 100px 20px 35px 180px;
@@ -3015,7 +3021,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 10px solid #272855;
+    border-top: 10px solid #272855;
+    border-bottom: 10px solid #272855;
+    border-left: 0px solid #272855;
+    border-right: 0px solid #272855;
 }
 
 .B-icons {
