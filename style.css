@@ -607,10 +607,11 @@ h3 {
 
 
 .message > P {
-    font-size: 12px;
+    padding-top: 10px;
+    font-size: 10px;
     color: #EFE9E7;
     font-style: italic;
-    width: 200px;
+    width: 220px;
 }
 
 .name-of-f {
