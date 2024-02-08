@@ -2329,7 +2329,7 @@ footer {
 /* ****** THIS IS THE 420PX BREAK POINT ***** */
 
 
-@media screen and (min-width: 361px) and (max-width: 420px){
+@media screen and (max-width: 420px){
 
     *{
         box-sizing: border-box;
@@ -3104,7 +3104,7 @@ footer {
 /* ****** THIS IS THE 300PX BREAK POINT ***** */
 
 
-@media screen and (min-width: 301px) and (max-width: 360px){
+@media screen and (max-width: 360px){
 
     *{
         box-sizing: border-box;
@@ -3790,7 +3790,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 10px solid #272855;
+    border-top: 10px solid #272855;
+    border-bottom: 10px solid #272855;
+    border-left: 0px solid #272855;
+    border-right: 0px solid #272855;
 }
 
 .B-icons {
@@ -3870,7 +3873,7 @@ footer {
 /* ****** THIS IS THE 300PX BREAK POINT ***** */
 
 
-@media screen and (min-width: 298px) and (max-width: 300px){
+@media screen and (max-width: 300px){
 
     *{
         box-sizing: border-box;
@@ -4555,7 +4558,10 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 10px solid #272855;
+    border-top: 10px solid #272855;
+    border-bottom: 10px solid #272855;
+    border-left: 0px solid #272855;
+    border-right: 0px solid #272855;
 }
 
 .B-icons {
