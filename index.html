@@ -11,9 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=IBM+Plex+Serif:wght@400;500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    
     <!-- css -->
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -39,19 +37,18 @@
             </div>
         </div>
         <menu>
-                    <!-- dropdown button -->
-        <img class="growthly-image" src="./growthly.png" alt="growthly" style="height: 100px;">
-        <div class="dropdown" id="menu-for-mobile">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <span style="font-weight: bolder;">Menu</span>
-            </button>
-            <ul class="dropdown-menu">
-              <li><button class="dropdown-item" type="button"><a href="#">Pricing</a></button></li>
-              <li><button class="dropdown-item" type="button"><a href="#">Product</a></button></li>
-              <li><button class="dropdown-item" type="button"><a href="#">Resources</a></button></li>
-              <li><button class="dropdown-item" type="button"><a href="#">About Us</a></button></li>
-            </ul>
-          </div>
+            <!-- dropdown button -->
+            <img class="growthly-image" src="./growthly.png" alt="growthly" style="height: 100px;">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Product</a>
+                  <a href="#">Pricing</a>
+                  <a href="#">Resources</a>
+                  <a href="#">Customer Support</a>
+                  <a href="#">About Us</a>
+                </div>
+            </div>
         </menu>
 
         <!-- promo-banner -->
