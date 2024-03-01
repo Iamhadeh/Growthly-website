@@ -800,7 +800,8 @@ footer {
     font-size: 1.1rem;
     display: flex;
     position: relative;
-    left: 360px;
+    left: 720px;
+    justify-content: flex-end;
 }
 
 #logo {
