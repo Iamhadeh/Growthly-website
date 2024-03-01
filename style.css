@@ -494,6 +494,15 @@ h3 {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    gap: 10px;
+}
+
+.first-layer {
+    width: 260px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .area-of-spec:hover {
@@ -511,13 +520,18 @@ h3 {
   }
 
 .box-for-top-features {
-    height: 200px;
+    height: 150px;
     width: 260px;
     border-top: 3px solid #272855;
+    gap: 10px;
 }
 
 .Top-features {
     display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 30px;
+    width: 200px;
     gap: 10px;
 }
 
@@ -1427,9 +1441,15 @@ a {
     width: 220px;
 }
 
+.first-layer {
+    width: 200px;
+    height: 200px;
+    gap: 20px;
+}
+
 
 .box-for-top-features {
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2114,7 +2134,7 @@ p {
 }
 
 .area-of-spec {
-    height: 380px;
+    height: 420px;
     width: 270px;
     background-color: #a1a7b8;
     gap: 10px;
@@ -2126,11 +2146,16 @@ p {
     border-radius: 20px;
 }
 
+.first-layer {
+    height: 200px;
+    width: 230px;
+}
+
 
 .box-for-top-features {
-    height: 240px;
-    padding-top: 10px;
-    width: 220px;
+    height: 150px;
+    padding-top: 5px;
+    width: 230px;
     border-top: 3px solid #272855;
 }
 
@@ -2892,7 +2917,7 @@ p {
 }
 
 .area-of-spec {
-    height: 430px;
+    height: 450px;
     width: 270px;
     background-color: #a1a7b8;
     gap: 40px;
@@ -2904,9 +2929,13 @@ p {
     border-radius: 20px;
 }
 
+.first-layer {
+    height: 150px;
+}
+
 
 .box-for-top-features {
-    height: 80px;
+    height: 120px;
     padding-top: 10px;
     width: 220px;
     border-top: 3px solid #272855;
@@ -3661,7 +3690,7 @@ p {
 }
 
 .area-of-spec {
-    height: 380px;
+    height: 430px;
     width: 270px;
     background-color: #a1a7b8;
     gap: 10px;
@@ -3673,13 +3702,19 @@ p {
     border-radius: 20px;
 }
 
+.first-layer {
+    height: 180px;
+}
+
 
 .box-for-top-features {
-    height: 240px;
+    height: 130px;
     padding-top: 10px;
     width: 220px;
     border-top: 3px solid #272855;
 }
+
+
 
 .Top-features {
     display: flex;
@@ -4432,7 +4467,7 @@ p {
 }
 
 .area-of-spec {
-    height: 380px;
+    height: 420px;
     width: 240px;
     background-color: #a1a7b8;
     gap: 10px;
@@ -4444,11 +4479,16 @@ p {
     border-radius: 20px;
 }
 
+.first-layer {
+    height: 200px;
+    width: 210px;
+}
+
 
 .box-for-top-features {
-    height: 240px;
+    height: 120px;
     padding-top: 10px;
-    width: 220px;
+    width: 210px;
     border-top: 3px solid #272855;
 }
 
